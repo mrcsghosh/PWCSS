@@ -34,4 +34,10 @@ Here Starting With CSS.....
 ![Task04](https://github.com/mrcsghosh/PWCSS/assets/145031494/4788ab53-af19-4e23-b6a7-8c147b42f21a)
 # position in CSS Task05
 ![Task05](https://github.com/mrcsghosh/PWCSS/assets/145031494/8483326e-d94e-4245-a156-6d7344e51332)
+# Flex in CSS Q.NO.03
+![Q no 03](https://github.com/mrcsghosh/PWCSS/assets/145031494/7e7a6d17-562c-4a19-aaae-ef06790e7e97)
+# Flex in CSS Q.no.04
+![Q no 04](https://github.com/mrcsghosh/PWCSS/assets/145031494/5193b061-1232-4ebc-83b1-afc7836159a7)
+# Flex in CSS Q.No.05
+![Q no 05](https://github.com/mrcsghosh/PWCSS/assets/145031494/67aa0737-8d62-4f40-9ed4-e74a33d627b1)
 
