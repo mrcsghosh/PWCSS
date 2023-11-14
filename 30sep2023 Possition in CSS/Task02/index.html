@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute v/s Relative</title>
+   <style>
+   table{
+        border-collapse: collapse; 
+   } 
+   h1{
+     color: blue;
+   }
+   th{
+         border: 1px solid black;
+         background-color: sienna; 
+         text-align: left;
+         padding: 5px;
+    }
+    td{
+         border: 1px solid black;
+         padding: 5px;
+    }
+   </style>
+</head>
+<body>
+     <h1>Difference Between position Absolute and position Relative:-</h1>
+     <table>
+        <thead>
+            <th id="A">Absolute</th>
+            <th id="R">Relative</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Syntax<br>{<br>position:Absolute;<br>}</td>
+                <td>Syntax<br>{<br>position:Relative;<br>}</td>
+            </tr>
+            <tr>
+                <td>When you apply relative positioning to an element, it is positioned relative to its normal position in the document flow.</td>
+                <td>When you apply absolute positioning to an element, it is positioned relative to its nearest positioned ancestor (ancestor with a position other than static), or if there is no such ancestor, it's positioned relative to the initial containing block (usually the viewport).</td>
+            </tr>
+            <tr>
+                <td>The element remains in the document flow, meaning it still takes up space in its original position, and other elements are positioned as if the relative element were still there.</td>
+                <td>The element is removed from the document flow, so it doesn't affect the layout of other elements. This can lead to elements overlapping if not managed properly.</td>
+            </tr>
+            <tr>
+                <td>You can use properties like top, right, bottom, and left to adjust the position of the relative element relative to its normal position.</td>
+                <td>You can use properties like top, right, bottom, and left to specify the exact position of the element relative to its positioned ancestor.</td>
+            </tr>
+        </tbody>
+     </table>
+</body>
+</html>

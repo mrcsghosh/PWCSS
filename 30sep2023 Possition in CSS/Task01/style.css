@@ -1,0 +1,43 @@
+body{
+    height: 100%;
+    width: 1000%;
+}
+h1{
+    position: absolute;
+    left: 120px;
+    top: 70px;
+    color: blue;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: cadetblue;
+    border: 1.5px solid gray;
+    text-align: center;
+
+}
+.boxA{
+    position: relative;
+    top : 200px;
+    left : 200px;
+}    
+.box1{
+    position: absolute;
+    left: -30px;
+    bottom: 30px;
+}
+.box2{
+    position: absolute;
+    right: -30px;
+    bottom: 30px;
+}
+.box3{
+    position: absolute;
+    left: -30px;
+    top: 30px;
+}
+.box4{
+    position: absolute;
+    right: -30px;
+    top: 30px;
+}
