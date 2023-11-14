@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>The main difference between them is that justify-items apply to grid containers and justify-self applies to grid items.
+    </p>
+    <p>Let us understand them by taking an example, below code, for example having 6 grid items arranged in a 3x2 
+       grid</p>
+    <div class="container">
+        <div class="box-1">A</div>
+        <div class="box-2">B</div>
+        <div class="box-3">C</div>
+        <div class="box-4">D</div>
+        <div class="box-5">E</div>
+        <div class="box-6">F</div>
+    </div>
+    <p>Lets apply justify-items: center on grid container, </p>
+    <div class="container-1">
+        <div class="box-1">A</div>
+        <div class="box-2">B</div>
+        <div class="box-3">C</div>
+        <div class="box-4">D</div>
+        <div class="box-5">E</div>
+        <div class="box-6">F</div>
+    </div>
+    <p>You see above grid items arranged center along the inline axis, within their respective grid cells.</p>
+     <p>This property allows us to set the default way of justifying each item in their respective grid cells.
+    </p>
+    <p>justify-self and align-self properties control the alignment of any specific grid item within its grid cell along the 
+        horizontal and vertical axes, respectively. The values can be a start, end, center, or stretch</p>
+    </p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Grid-auto-rows and grid-auto-column properties specify the height and width of rows that are automatically 
+        created when there is no explicit row definition and column definition respectively</p>
+    <div class="container">
+        <div class="containet-1">
+            <div>item-1</div>
+            <div>item-2</div>
+            <div>item-3</div>
+            <div>item-4</div>
+        </div>
+        <p>This example creates a grid container with three columns defined by grid-template-areas. The first row is 
+            displayed with a height of 50px because we have mentioned grid-template-rows for the first row as 50px. And 
+            the remaining rows will be displayed with a height of 100px, because of the grid-auto-rows:200px property. 
+            That's why the second row is displayed with a height of 200px.</p>
+        <div class="container-2">
+            <div>item-a</div>
+            <div>item-b</div>
+            <div>item-c</div>
+            <div>item-d</div>
+            <div>item-e</div>
+            <div>item-f</div>
+        </div>
+        <p>The first column is displayed with a width of 70px because we have mentioned grid-template-columns for the first column as 70px. And the remaining columns will be displayed with a width of 300px, because of the grid-auto-columns:300px property. That's why the second column is displayed with a width of 200px.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    margin: 40px;
+}
+.box{
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    font-size: 150%;
+    orphans: 1;
+}
+.box:nth-child(even){
+   background-color: #333;
+   color: #000;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6 ,100px);
+    grid-gap: 10px;
+}
