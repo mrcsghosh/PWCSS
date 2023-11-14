@@ -1,0 +1,188 @@
+*{
+    margin:0%;
+    padding: 0%;
+    list-style: none;
+}
+.full-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+/*left side content*/
+.left-side{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+}
+/*navigation bar content*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin-bottom: 40px;
+}
+.container-logo{
+    display: flex;
+    gap: 20px;
+}
+.container-logo img{
+    width: 75px;
+    height: 75px;
+}
+.container-navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.container-navbar ul{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    font-size: 15px;
+}
+.container-navbar li{
+    cursor: pointer;
+}
+.container-navbar button{
+    width: 100px;
+    padding: 7px 5px;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-radius: 3px;
+    background-color: transparent;
+}
+.container-navbar .select{
+    background-color: orangered;
+    border-color: transparent;
+    color: #fff;
+}
+/*main content*/
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+main .main-title{
+    font-size: 45px;
+    margin-top: 35px;
+}
+main .sub-title{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+main .text-green{
+    color: green;
+}
+main .text-orange{
+    color: orangered;
+}
+main .text-blue{
+    color: blue;
+}
+main .choose-ticket-button{
+     display: flex;
+     gap: 30px;
+     margin:15px  0px;
+}
+main .choose-ticket-button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 8px;
+    border: 1.5px solid rgb(188, 184, 184);
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 550;
+    cursor: pointer;
+}
+main .choose-ticket-button .selected{
+    /*border-color:#213D77 ;*/
+    background-color: rgb(24, 24, 97);
+    color: #fff;
+}
+/*choose your Journy content*/
+main .visit-for-train{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+main .choose-train{
+    display: flex;
+    align-items: center;
+}
+main .container-main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin-bottom: 8px;
+}
+main .choose-ticket{
+    display: flex;
+    align-items: center;
+    
+}
+main .choose-ticket-img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+main .select-option{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    cursor: pointer;
+}
+main .choose-location span{
+    font-size: 15px;
+    color: rgb(77, 75, 75);
+}
+main .dropdown{
+    display: flex;
+    align-items: center;
+    color:rgb(77, 75, 75) ;
+}
+/*serach train button*/
+main .search-train-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color:lime ;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+/*ride side content*/
+.right-side{
+    width: 50%;
+    height: auto;
+}
+.right-side img{
+   /* margin-right: 30px;*/
+    height: 100%;
+    width: 100%;
+   /* padding: 10px 15px;*/
+}
+/*.to-from{
+    height: 100%;
+    border:1px solid rgb(246, 243, 243);
+    border-radius: 80%;
+}*/

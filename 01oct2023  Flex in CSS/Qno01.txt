@@ -1,0 +1,17 @@
+Q.No.01 Answer:-
+
+The main difference between the CSS Firefox layout model and the CSS Grid layout model is that they serve different purposes and have distinct ways of controlling and arranging elements on a web page:
+
+CSS Firefox Layout Model (XUL-based Layout):
+
+      The Firefox layout model you're referring to is related to XUL (XML User Interface Language) and is specific to Mozilla Firefox. It is not a widely adopted or standard layout model for the web.
+      XUL-based layouts are primarily used for creating custom user interfaces within Firefox extensions and for building Firefox-specific components.
+      This layout model is not intended for general web design and is not supported by all web browsers. It is more of a niche technology for Firefox extension development.
+
+CSS Grid Layout Model:
+
+      CSS Grid is a widely adopted and standardized layout model that is part of the CSS (Cascading Style Sheets) specification.
+      CSS Grid allows you to create two-dimensional grids in which you can precisely control the placement and alignment of elements. You can define rows and columns and specify how items are positioned within the grid.
+      It is a powerful tool for creating complex, responsive layouts and is supported by all modern web browsers, making it suitable for general web design.
+
+in sime cases you may even combine both Firefox and CSS Grid within a single layout to leverage a strenth of each model for different part of your website   
