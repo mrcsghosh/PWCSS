@@ -1,0 +1,18 @@
+/* Use the descendant combinator selector and to remove list bullets and list style underline*/
+
+ul li,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* use the Child combinator selector and show the menu list items inline*/
+
+ul > li{
+    display: inline;
+}
+
+/*use the Adjacent sibling combiantor selectors to aply some margin between the menu list items*/
+
+li{
+    margin: 20px;
+}

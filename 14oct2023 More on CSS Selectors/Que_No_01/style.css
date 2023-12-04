@@ -1,0 +1,59 @@
+/* B Using the Combinator selector,perform thr Task -*/
+body{
+    background-color: #fff;
+}
+/*B a. target the a tag to change the color*/
+nav a{
+    color: green;
+}
+/*B b. target the first h2 tag and change background-color and text-color*/
+nav > h2{
+    background-color: red;
+    color: snow;
+}
+/*B c. target the first p tag and change text-color red*/
+nav p:nth-child(3){
+    color: red;
+}  
+/*Using thr attribute selector perform the task-*/
+/*C a. remove the text underline */
+li a{
+    color: red;
+    text-decoration: none;
+}
+
+/*C b. target the a tag with attribute of class name "active"
+
+change the text color and provide the text-style properties with underline*/
+
+.active a{
+    color: blue;
+    text-decoration: underline;
+}
+
+/*C c. target the a tag with attribute of class target whose value is "_self" and change the background-color*/
+
+._self{
+    background-color: lightpink;
+}
+
+
+/*D a. target the last p tag and added the value"..." after his value*/
+
+p:last-child::after{
+    content:"...";
+}
+
+
+/*D  b. target the list bullets and change its color */
+
+li{
+    color: green;
+}
+
+/*D c. target the 2nd p tag and change its first letter color to red and also change the font size to 30px*/
+
+p:nth-child(even)::first-letter{
+    color: red;
+    font-size: 30px;
+}
