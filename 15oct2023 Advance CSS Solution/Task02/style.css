@@ -1,0 +1,55 @@
+:root{
+    --sixe:300px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    place-content: center;
+    min-height: 80vh;
+}
+/*Container part*/
+.container{
+    perspective: 1000px;
+    width: var(--sixe);
+    height: var(--sixe);
+
+}
+/*cube part*/
+.cube{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateX(-25deg) rotateY(25deg)
+}
+/*face part*/
+.face{
+    position: absolute;
+    width: var(--sixe);
+    height: var(--sixe);
+    border: 2px solid lightslategray;
+    text-align: center;
+    line-height: var(--sixe);
+    font-size: 28px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    opacity: 0.8;
+}
+.front{
+    transform: translateZ(150px);
+}
+.back{
+     transform:rotateY(180deg) translateZ(150px); 
+}
+.top{
+    transform: rotateX(90deg) translateZ(150px);
+}
+.right{
+    transform: rotateY(90deg) translateZ(150px);
+}
+.left{
+    transform: rotateY(-90deg) translateZ(150px);
+}
+.bottom{
+    transform: rotateX(-90deg) translateZ(150px);
+}

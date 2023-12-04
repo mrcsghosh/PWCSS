@@ -1,0 +1,14 @@
+Purpose of Var () function
+
+1. Reusability: 
+              CSS variables enable the definition of values at a central location (usually in the :root selector or within specific elements), making it easy to reuse those values throughout the stylesheet.
+              The var() function allows you to reference these variables wherever a value is needed, promoting a modular and DRY (Don't Repeat Yourself) approach.
+              
+2. Consistency:
+            By using variables, you can ensure consistency in styling across your website or application. If a common value needs to be updated (e.g., a primary color or font size), you can modify the variable in one place, and the change will cascade to all instances where the variable is used.
+
+3. Dynamic Updates:
+                CSS variables can be dynamically updated using JavaScript. This dynamic nature allows for real-time changes to styles without requiring a full page reload, providing a more interactive and responsive user experience.
+
+4. Global Uses:
+            CSS variables are commonly employed for theming purposes. By defining variables for colors, fonts, and other theme-related properties, you can easily switch between different themes by changing the values of these variables.
