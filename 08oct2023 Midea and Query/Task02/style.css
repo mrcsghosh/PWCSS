@@ -1,0 +1,19 @@
+.image-gallary{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.image-gallary img{
+    width: 30%;
+    margin: 10px;
+}
+@media screen and (max-width:800px ) {
+    .image-gallary img{
+      width: 45%;
+    } 
+}
+@media screen and (max-width:500px) {
+    .image-gallary img{
+      width: 100%;
+}
+}
