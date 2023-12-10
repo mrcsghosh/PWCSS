@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deshboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-slate-200">
+    <!--Sidebar Content-->
+    <aside class="sidebar bg-slate-800 text-slate-100 w-64 fixed h-screen">
+      <div class="w-full flex flex-col h-full">
+          <!--Sidebar Navigation Content-->
+          <div class="navbar flex items-center justify-center py-4 text-2xl font-semibold"><a href="#"><i class="fa-solid fa-bars px-2"></i></a><span>Deshboard</span></div>
+          <!--sidebar Content navigation headlines-->
+          <div class="sub-nav">
+            <ul>
+                <li class="hover:bg-slate-200 hover:text-slate-900 px-4 py-2"><a href="#"></a>
+                  <i class="fa-solid fa-gauge px-2"></i><span>Deshboard</span></li>
+                <li class="hover:bg-slate-200 hover:text-slate-900 px-4 py-2"><a href="#"></a><i class="fa-solid fa-people-group px-2"></i><span>Team</span></li>
+                <li class="hover:bg-slate-200 hover:text-slate-900 px-4 py-2"><a href="#"><i class="fa-solid fa-folder px-2"></i><span>Project</span></li>
+                <li class="hover:bg-slate-200 hover:text-slate-900 px-4 py-2"><a href="#"></a><i class="fa-solid fa-calendar-days px-2"></i><span>Calender</span></li>
+                <li class="hover:bg-slate-200 hover:text-slate-900 px-4 py-2"><a href="#"></a>
+                <!--we also use icons by tailwind heroicons-->
+                <!--<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                  </svg>-->
+                <i class="fa-solid fa-file-code px-2"></i><span>Document</span></li>
+                <li class="hover:bg-slate-200 hover:text-slate-900 px-4 py-2"><a href="#"></a><i class="fa-solid fa-clipboard-check px-2"></i><span>Report</span></li>
+            </ul>
+          </div>
+          <!--Sidebar Bottom Navigation part-->
+          <div class="bottom-sub-nav">
+            <h1 class="p-4 font-semibold">Your Teams</h1>
+            <ul>
+                <li class="hover:bg-slate-200 hover:text-slate-900 px-4 py-2"><a href="#"></a><i class="fa-solid fa-people-group px-2"></i><span>PW Skills</span></li>
+                <li class="hover:bg-slate-200 hover:text-slate-900 px-4 py-2"><a href="#"></a><i class="fa-solid fa-people-group px-2"></i><span>PW Lab</span></li>
+                <li class="hover:bg-slate-200 hover:text-slate-900 px-4 py-2"><a href="#"></a><i class="fa-solid fa-people-group px-2"></i><span>PW lol</span></li>
+            </ul>
+          </div>
+      </div>
+    </aside>
+    <!--Main Content is Here-->
+    <main class="ml-64 h-screen p-4 bg-slate-100">
+        <header class="header flex justify-between bg-white py-4 px-4 shadow-md">
+            <!--Here The User profile part-->
+             <div class="profile">
+                <a href="#"></a><i class="fa-solid fa-user px-2"></i>
+                <!--we are use only svg when dont wnat to text on its side
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                  </svg>-->
+                  <span class="font-semibold">Profile</span>
+             </div>
+             <div class="right flex space-x-4">
+                <i class="fa-solid fa-search"></i>
+                <i class="fa-solid fa-bell"></i>
+             </div>
+        </header>
+    </main>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User login page </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" max-w-[1440px] m-auto border-2 h-screen flex items-center justify-center ">
+    <section class="container flex justify-center items-center h-full gap-4 px-10">
+
+        <!-- login part -->
+        <div class=" mx-auto my-auto text-center space-y-4">
+            <h2 class="text-3xl"> Login </h2>
+            <p class="text-[#828282] "> Enter your credential to access your account</p>
+
+            <!-- google social login button -->
+            <div class="w-full py-4">
+                <button class=" flex justify-center items-center gap-2 border border-[#828282]
+                            rounded-sm p-4 w-full">
+                    <img class="w-auto h-auto"  src="./download.png"  alt="google icons">
+                    <span>Log in with Google</span>
+                </button>
+            </div>
+
+            <!-- or section -->
+            <div class="flex w-full justify-center items-center gap-4 py-4">
+                <div class="w-full lg:w-44 h-[0.5px] bg-[#828282]"></div>
+                <p>Or</p>
+                <div class="w-full lg:w-44 h-[0.5px] bg-[#828282]"> </div>
+            </div>
+
+            <!-- email and password input form here -->
+            <form class="flex flex-col justify-start items-start ">
+                <label for="email">Email Address </label>
+                <input type="email" id="email" name="fname" placeholder="email@gmail.com"
+                    class="p-2 w-full outline outline-[0.5px] outline-[#828282] rounded-sm"> <br>
+                <label for="password" class="flex justify-between w-full">
+                    <span>Password</span>
+                    <span>
+                        <a href="#" class="text-blue-600">Forgot Password?</a>
+                    </span>
+                </label>
+                <input type="password" id="password" name="password" placeholder="Password"
+                    class="p-3 w-full outline outline-[0.5px] outline-[#828282] rounded-sm"><br>
+                <button type="submit" class="text-white w-full bg-blue-500 py-2 rounded-sm">
+                    Login </button>
+             <p class="text-[#828282] mx-auto py-4">Don't have an account? <a href="#" class="text-[#000]"> Register here </a> 
+            </p>
+          </form>
+        </div>
+       </div>
+       <!-- rigt side image -->
+       <div class="hidden lg:block self-end w-[90%] xl:w-auto">
+            <img class="h-[90vh] "src="./Young-Woman.png" alt="Login section image">
+        </div>
+    </section>
+</body>
+</html>
